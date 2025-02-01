@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Family Members</title>
+    <style>
+        /* Royal Theme Styling */
+        body {
+            background: linear-gradient(to right, #1a1a2e, #16213e);
+            color: white;
+            font-family: 'Garamond', serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            color: gold;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px black;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: #222;
+            border: 2px solid gold;
+            border-radius: 10px;
+            width: 300px;
+            margin: 15px;
+            box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(255, 215, 0, 0.6);
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 2px solid gold;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-content h2 {
+            color: gold;
+            font-size: 1.8rem;
+            margin: 10px 0;
+        }
+
+        .card-content p {
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: justify;
+            color: #ddd;
+        }
+
+        .footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: gold;
+            color: black;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px white;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>The Royal Family</h1>
+
+    <div class="container">
+        <!-- Family Member 1 -->
+        <div class="card">
+            <img src="51.jpg"alt="King">
+            <div class="card-content">
+                <h2>Baarrister Murtala Muhammad Shawai</h2>
+                <p>The first Chigari of Mai Sudan Kontagora able Barrister, known for his wisdom and bravery, has led the kingdom to prosperity with his just and noble rule.</p>
+            </div>
+        </div>
+
+        <!-- Family Member 2 -->
+        <div class="card">
+            <img src="1.jpg" alt="Queen">
+            <div class="card-content">
+                <h2>Hajiya Gimbiya Hussaina Sa'idu Namaska</h2>
+                <p>Gimbiya, heart of the kingdom, is admired for her kindness and grace, ensuring the well-being of the people.</p>
+            </div>
+        </div>
+
+        <!-- Family Member 3 -->
+        <div class="card">
+            <img src="3.jpg" alt="Prince">
+            <div class="card-content">
+                <h2>Maryam and Aisha Murtala Muhammad Shawai</h2>
+                Princesses, beacon of light and intelligence,  renowned for their talents and  commitment to the kingdom’s people.</p>
+            </div>
+        </div>
+
+        <!-- Family Member 4 -->
+        <div class="card">
+            <img src="2.jpg"alt="Princess">
+            <div class="card-content">
+                <h2>Families</h2>
+                <p>The family. Known for their intelligence and adaptability, they inspire everyone around them with their creativity and kindness.</p>
+            </div>
+        </div>
+    </div>
+     
+    <div class="footer">
+        © 2025 Bokane| All Rights Reserved
+    </div>
+</body>
+</html>
